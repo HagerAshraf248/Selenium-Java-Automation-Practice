@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Selenium Suite">
+
+    <test name="Web Form Tests">
+        <classes>
+            <class name="WebFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Dynamic Wait Tests">
+        <classes>
+            <class name="DynamicWaitTest"/>
+        </classes>
+    </test>
+
+</suite>
